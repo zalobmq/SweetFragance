@@ -291,12 +291,13 @@ color: $primaryFucsia;
     font-family: HarlowSolid;
     font-size: 60px;
     color: $customWhite;
+    text-decoration: underline;
 }
 .des-cat{
     font-family: HarlowSolid;
     font-size: 20px;
-
-    color: $customWhite;
+    text-decoration: underline;
+    color: $secondaryFucsia;
 }
 .imagen-1-Catalogo{
 height: 700px;
@@ -321,4 +322,21 @@ border-radius: 20px;
 }
 .brd{
     border-radius: 25px;
+}
+
+.tl-preguntasF{
+    font-family: Ebrima-Negrita;
+    color: $secondaryFucsia;
+}
+.ds-preguntasF{
+    font-family: Ebrima;
+}
+.borde-fucsia{
+    border: 2px solid $secondaryFucsia;
+}
+.borde-fucsia-central-1{
+    border-right: 1px solid $secondaryFucsia;
+}
+.borde-fucsia-central-2{
+    border-left: 1px solid $secondaryFucsia;
 }

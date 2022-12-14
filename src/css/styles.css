@@ -430,12 +430,14 @@ label {
   font-family: HarlowSolid;
   font-size: 60px;
   color: #EEEEEE;
+  text-decoration: underline;
 }
 
 .des-cat {
   font-family: HarlowSolid;
   font-size: 20px;
-  color: #EEEEEE;
+  text-decoration: underline;
+  color: #8C0383;
 }
 
 .imagen-1-Catalogo {
@@ -466,6 +468,27 @@ label {
 
 .brd {
   border-radius: 25px;
+}
+
+.tl-preguntasF {
+  font-family: Ebrima-Negrita;
+  color: #8C0383;
+}
+
+.ds-preguntasF {
+  font-family: Ebrima;
+}
+
+.borde-fucsia {
+  border: 2px solid #8C0383;
+}
+
+.borde-fucsia-central-1 {
+  border-right: 1px solid #8C0383;
+}
+
+.borde-fucsia-central-2 {
+  border-left: 1px solid #8C0383;
 }
 
 /*# sourceMappingURL=styles.css.map */
