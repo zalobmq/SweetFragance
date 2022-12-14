@@ -1,0 +1,324 @@
+@import "_vars";
+
+//Estilos imagenes CATALOGO
+
+//Toxic Pink - RosaFuego
+body {
+    &::-webkit-scrollbar {
+        width: 12px;
+        /* width of the entire scrollbar */
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $customBlack;
+        /* color of the tracking area */
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $secondaryFucsia;
+        /* color of the scroll thumb */
+        border-radius: 20px;
+        /* roundness of the scroll thumb */
+        border: 3px solid $customBlack;
+        /* creates padding around scroll thumb */
+    }
+}
+
+
+.nombre-perfume{
+font-family: HarlowSolid;
+color: $primaryFucsia;
+
+}
+.linkLogo{
+    text-decoration: none;
+}
+.tituloLogo{
+    font-size: 30px;
+
+}
+
+.tituloLogo1{
+    text-decoration: none;
+    font-family: HarlowSolid;
+    color: $primaryFucsia;
+
+}
+.tituloLogo2{
+    text-decoration: none;
+    font-family: HarlowSolid;
+    color: $secondaryFucsia;
+
+}
+
+
+
+
+.card-inicio{
+    width: 450px;
+    height: 200px;
+    background-color: $customWhite;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 150px;
+}
+//-----------------------------------
+.Logo-App{
+    width: 3px;
+    height: 35px;
+}
+
+//------------------CONTINIDO
+.contenido{
+    margin-top: 10%;
+}
+
+.contenidoOtros{
+    margin-top: 5%;
+
+}
+.card-SN{
+    border: 2PX solid $secondaryFucsia;
+}
+.conten-inputs{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+//-----------FONDO CARDS
+.fondocard{
+    //background-image: url("../img/Backgrounds-windows/DegradadoAzul.png");
+    background-color: rgba(255, 255, 255, 0.212);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondocard-SobreNosotros{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+.fondocard-Sesion{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+
+//-----------TITULO CARDS
+
+.titulo-card{
+    font-family: HarlowSolid;
+    color: $secondaryFucsia;
+
+
+}
+.titulo-card-SN{
+    margin-top: 10px;
+    color: $secondaryFucsia;
+    font-family: HarlowSolid;
+
+}
+.titulo-card-Sesion{
+    margin-top: 10px;
+    color: $secondaryFucsia;
+    font-family: HarlowSolid;
+
+}
+.titulo-campo{
+    margin-right: 100px;
+}
+.titulos-sesion{
+    margin-bottom: 20px;
+    color: $secondaryFucsia;
+}
+.titulo-crear{
+    font-family: HarlowSolid;
+    color: $secondaryFucsia;
+
+}
+//-----------TEXT CARDS
+
+.text-card{
+    font-family: HarlowSolid;
+    color: $customBlack;
+}
+.text-card-SN{
+    margin-top: 50px;
+    font-family: HarlowSolid;
+    color: $customBlack;
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+.text-card-Sesion{
+    margin-top: 50px;
+    font-family: Ebrima-Negrita;
+    color: $customBlack;
+
+}
+.text-crearCuenta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Ebrima;
+    font-size: 15px;
+}
+.fondo-card{
+    background-color: rgb(248, 200, 208);
+}
+//------------------------estilos input
+.group {
+    position: relative;
+   }
+   
+   .input {
+    font-size: 12px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+   }
+   
+   .input:focus {
+    outline: none;
+   }
+   
+   label {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+   .input:focus ~ label, .input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: $secondaryFucsia;
+   }
+   
+   .bar {
+    position: relative;
+    display: block;
+    width: 200px;
+   }
+   
+   .bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: $secondaryFucsia;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+   .bar:before {
+    left: 50%;
+   }
+   
+   .bar:after {
+    right: 50%;
+   }
+   
+   .input:focus ~ .bar:before, .input:focus ~ .bar:after {
+    width: 50%;
+   }
+   
+   .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+   }
+   
+   .input:focus ~ .highlight {
+    animation: inputHighlighter 0.3s ease;
+   }
+   
+   @keyframes inputHighlighter {
+    from {
+     background: $primaryFucsia;
+    }
+   
+    to {
+     width: 0;
+     background: transparent;
+    }
+   }
+//---------------------------------Input perfil 
+
+
+
+//---------------------------------
+.bt-inicioSesi{
+    margin-top: 30px;
+}
+.link-volver{
+    text-decoration: none;
+
+}
+.poli-priv{
+    font-size: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bt-cm-con{
+    margin-top: 20px;
+}
+.imagen-modelo{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+.contenedor-portada-catalogo{
+    margin: 60px;
+}
+.titulo-portada-catalogo{
+    margin-top:10%;
+}
+.tl-cat{
+
+    font-family: HarlowSolid;
+    font-size: 60px;
+    color: $customWhite;
+}
+.des-cat{
+    font-family: HarlowSolid;
+    font-size: 20px;
+
+    color: $customWhite;
+}
+.imagen-1-Catalogo{
+height: 700px;
+border-radius: 20px;
+}
+.imagen-2-Catalogo{
+    height: 700px;
+    border-radius: 20px;
+}
+.titulos-articulos{
+    font-family: HarlowSolid;
+    font-size: 60px;
+    color: $customWhite;
+    margin-top: 30px;
+}
+.margenes-elemento{
+    margin-top: 20%;
+    margin-left: 15%;
+}
+.bt-hver:hover{
+    color: white;
+}
+.brd{
+    border-radius: 25px;
+}

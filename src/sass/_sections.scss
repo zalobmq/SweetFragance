@@ -1,0 +1,132 @@
+@import "_vars";
+
+
+
+//Barra de navegacion
+
+//Tamaño iconos
+
+
+
+//---------------------------------
+
+
+.barra-nav{
+    padding: 10px;
+    background-color: white;
+}
+//---------------------------------
+
+.menu-estilos-1 {
+    text-decoration: none;
+    color: $primaryFucsia;
+    font-family: HarlowSolid;
+    font-size: $fuenteNavBar;
+
+    &:hover {
+        color: $secondaryFucsia;
+    }
+}
+.menu-estilos-2 {
+    text-decoration: none;
+    color: $tertiaryFucsia;
+    font-family: Ebrima-Negrita;
+    font-size: $fuenteNavBar;
+
+    &:hover {
+        color: $secondaryFucsia;
+    }
+}
+
+.marcado1 {
+    text-decoration: none;
+    color: $secondaryFucsia;
+    font-family: HarlowSolid;
+    font-size: $fuenteNavBar;
+
+    &:hover {
+        color: $secondaryFucsia;
+    }
+}
+
+.marcado2 {
+    text-decoration: none;
+    color: $secondaryFucsia;
+    font-family: Ebrima-Negrita;
+    font-size: $fuenteNavBar;
+
+    &:hover {
+        color: $secondaryFucsia;
+    }
+}
+
+.marcado-pf {
+    text-decoration: none;
+    color: $secondaryFucsia;
+    font-family: Ebrima-Negrita;
+    font-size: $fuentePF;
+
+    &:hover {
+        color: $secondaryFucsia;
+    }
+}
+
+
+
+.menu-estilos-pf {
+    text-decoration: none;
+    color: $tertiaryFucsia;
+    font-family: Ebrima-Negrita;
+    font-size: $fuentePF;
+
+    &:hover {
+        color: $secondaryFucsia;
+    }
+}
+
+.lineaDivisoria {
+    color: $tertiaryFucsia;
+    font-family: Ebrima-Negrita;
+    font-size: $fuenteLineaDivisoria;
+}
+
+//FONDOS PAGINAS
+.background-Inicio{
+    background-image: url("../img/Backgrounds-windows/16-9_FondoPortada.png");
+    background-repeat: no-repeat;
+
+}
+.fondoVentana-SobreNosotros{
+
+    background-image: url("../img/Backgrounds-windows/16-9\ FondoSobreNosotros.png");
+    background-repeat: no-repeat;
+}
+.fondoVentana-sesion{
+
+    background-image: url("../img/Backgrounds-windows/16-9\ Sesion_Preguntas.png");
+    background-repeat: no-repeat;
+}
+.background-Perfil{
+    background-image: url("../img/Backgrounds-windows/16-9\ FondoPerfil.png");
+    background-repeat: no-repeat;
+}
+.background-Carrito{
+    background-image: url("../img/Backgrounds-windows/16-9\ FondoCarrito.png");
+    background-repeat: no-repeat;
+}
+.background-Catalogo{
+    background-image: url("../img/Backgrounds-windows/fondoDegadadoCatalogo.jpg");
+    background-repeat: no-repeat;
+}
+.fondo-portada{
+    background-image: url("../img/Backgrounds-windows/fondoXA.jpg");
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+}
+.fondo-estrellas{
+    background-image: url("../img/Backgrounds-windows/16-9\ FondoCatalogo2.png");
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 10px;
+}

@@ -1,0 +1,34 @@
+/*      COLORS      */
+
+//  TONOS FUCSIA
+$primaryFucsia: #D904CB;
+$secondaryFucsia: #8C0383;
+$tertiaryFucsia: #E87AE1;
+$veryDarkFuchsia: #59024B;
+
+//BASICOS
+$customWhite: #EEEEEE;
+$customBlack: #252525;
+
+//FUENTES 
+@font-face {
+    font-family: Ebrima;
+    src: url("../fonts/Ebrima/ebrima.ttf"),
+}
+
+@font-face {
+    font-family: Ebrima-Negrita;
+    src:
+        url("../fonts/Ebrima/ebrimabd.ttf");
+}
+
+@font-face {
+    font-family: HarlowSolid;
+    src: url("../fonts/Harlow_Solid/HARLOWSI.TTF");
+}
+
+//Tamaño fuente de menu superior 
+
+$fuenteNavBar:20px;
+$fuenteLineaDivisoria:30px;
+$fuentePF:16px;
