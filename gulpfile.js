@@ -27,3 +27,13 @@ function generateSassDoc(){
 
 }
 exports.generarSassDoc = generateSassDoc;
+
+//Tarea compilar sass
+function compilar_sass(){
+    return src("src/sass/global.scss")
+    .pipe(sass())
+    .pipe(dest("src/css/styles.css"));
+}
+
+exports.compilar_sass = compilar_sass;   
+
