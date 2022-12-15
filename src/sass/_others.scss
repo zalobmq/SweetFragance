@@ -1,8 +1,8 @@
 @import "_vars";
 
-//Estilos imagenes CATALOGO
-
-//Toxic Pink - RosaFuego
+/// @group ESTILOS-WEB-SweetFragance
+/// Estilos del body y del scroll bar personalizado
+/// @group body-scrollBar
 body {
     &::-webkit-scrollbar {
         width: 12px;
@@ -24,15 +24,17 @@ body {
     }
 }
 
-
+/// Estilos de los nombres de los perfumes
 .nombre-perfume{
 font-family: HarlowSolid;
 color: $primaryFucsia;
 
 }
+/// Estilo enlace logo
 .linkLogo{
     text-decoration: none;
 }
+/// Estilo logo web
 .tituloLogo{
     font-size: 30px;
 
@@ -53,7 +55,7 @@ color: $primaryFucsia;
 
 
 
-
+/// Estilos card-inicio
 .card-inicio{
     width: 450px;
     height: 200px;
@@ -62,13 +64,14 @@ color: $primaryFucsia;
     border-bottom-right-radius: 50px;
     margin-top: 150px;
 }
-//-----------------------------------
+
 .Logo-App{
     width: 3px;
     height: 35px;
 }
 
-//------------------CONTINIDO
+/// ------------------CONTINIDO
+/// @group contenido
 .contenido{
     margin-top: 10%;
 }
@@ -84,7 +87,8 @@ color: $primaryFucsia;
     margin-top: 30px;
     margin-left: 150px;
 }
-//-----------FONDO CARDS
+/// -----------FONDO CARDS
+/// @group fondo-card
 .fondocard{
     //background-image: url("../img/Backgrounds-windows/DegradadoAzul.png");
     background-color: rgba(255, 255, 255, 0.212);
@@ -102,7 +106,8 @@ color: $primaryFucsia;
     background-color: rgba(255, 255, 255, 0.973);
 }
 
-//-----------TITULO CARDS
+/// ------------------TITULOS CARD
+/// @group titulo-card
 
 .titulo-card{
     font-family: HarlowSolid;
@@ -134,7 +139,8 @@ color: $primaryFucsia;
     color: $secondaryFucsia;
 
 }
-//-----------TEXT CARDS
+/// -----------TEXT CARDS
+/// @group text-card
 
 .text-card{
     font-family: HarlowSolid;
@@ -163,7 +169,8 @@ color: $primaryFucsia;
 .fondo-card{
     background-color: rgb(248, 200, 208);
 }
-//------------------------estilos input
+/// ------------------------estilos input
+/// @group estilos-input
 .group {
     position: relative;
    }
@@ -255,11 +262,8 @@ color: $primaryFucsia;
      background: transparent;
     }
    }
-//---------------------------------Input perfil 
-
-
-
-//---------------------------------
+/// ------------------CATALOGO
+/// @group catalogo
 .bt-inicioSesi{
     margin-top: 30px;
 }
@@ -323,7 +327,8 @@ border-radius: 20px;
 .brd{
     border-radius: 25px;
 }
-
+/// ------------------PREGUNTAS
+/// @group preguntas
 .tl-preguntasF{
     font-family: Ebrima-Negrita;
     color: $secondaryFucsia;
@@ -331,6 +336,8 @@ border-radius: 20px;
 .ds-preguntasF{
     font-family: Ebrima;
 }
+/// ------------------INICIO SESION
+/// @group inicio-sesion
 .borde-fucsia{
     border: 2px solid $secondaryFucsia;
 }

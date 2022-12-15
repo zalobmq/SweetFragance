@@ -1,16 +1,16 @@
-/*      COLORS      */
-
-//  TONOS FUCSIA
+/// Colores titulos de marca
+/// @group colores
 $primaryFucsia: #D904CB;
 $secondaryFucsia: #8C0383;
 $tertiaryFucsia: #E87AE1;
 $veryDarkFuchsia: #59024B;
 
-//BASICOS
+
 $customWhite: #EEEEEE;
 $customBlack: #252525;
 
-//FUENTES 
+/// Colores titulos de marca
+/// @group fuentes_empleadas 
 @font-face {
     font-family: Ebrima;
     src: url("../fonts/Ebrima/ebrima.ttf"),
@@ -27,8 +27,8 @@ $customBlack: #252525;
     src: url("../fonts/Harlow_Solid/HARLOWSI.TTF");
 }
 
-//Tamaño fuente de menu superior 
-
+/// Tamaño de fuentes usadas en la barra de navegacion
+/// @group tamano_fuentes_navBar
 $fuenteNavBar:20px;
 $fuenteLineaDivisoria:30px;
 $fuentePF:16px;

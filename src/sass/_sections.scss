@@ -1,12 +1,14 @@
 @import "_vars";
 
 
-
+/// Estilos menu de navegacion 
+/// @group estilos-navBar
 .barra-nav{
     padding: 10px;
     background-color: white;
 }
-
+/// Estilos menu de navegacion superior 1 
+/// @group estilos-menu-1
 .menu-estilos-1 {
     text-decoration: none;
     color: $primaryFucsia;
@@ -17,6 +19,8 @@
         color: $secondaryFucsia;
     }
 }
+/// Estilos menu de navegacion superior 2
+/// @group estilos-menu-2
 .menu-estilos-2 {
     text-decoration: none;
     color: $tertiaryFucsia;
@@ -28,51 +32,8 @@
     }
 }
 
-.marcado1 {
-    text-decoration: none;
-    color: $secondaryFucsia;
-    font-family: HarlowSolid;
-    font-size: $fuenteNavBar;
-
-    &:hover {
-        color: $secondaryFucsia;
-    }
-}
-
-.marcado2 {
-    text-decoration: none;
-    color: $secondaryFucsia;
-    font-family: Ebrima-Negrita;
-    font-size: $fuenteNavBar;
-
-    &:hover {
-        color: $secondaryFucsia;
-    }
-}
-
-.marcado-pf {
-    text-decoration: none;
-    color: $secondaryFucsia;
-    font-family: Ebrima-Negrita;
-    font-size: $fuentePF;
-
-    &:hover {
-        color: $secondaryFucsia;
-    }
-}
-
-
-
-.menu-estilos-pf {
-    text-decoration: none;
-    color: $tertiaryFucsia;
-    font-family: Ebrima-Negrita;
-    font-size: $fuentePF;
-
-    &:hover {
-        color: $secondaryFucsia;
-    }
-}
+/// Estilos menu de la lineaDivisoria
+/// @group estilos-lineaDivisoria
 
 .lineaDivisoria {
     color: $tertiaryFucsia;
@@ -80,7 +41,8 @@
     font-size: $fuenteLineaDivisoria;
 }
 
-//FONDOS PAGINAS
+/// Fondos de las diferentes ventanas y card personalizados
+/// @group fondos-pantallas
 .background-Inicio{
     background-image: url("../img/Backgrounds-windows/16-9_FondoPortada.png");
     background-repeat: no-repeat;
