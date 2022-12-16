@@ -12,6 +12,7 @@ function defaultTask(cb) {
     console.log("Estas son las TASK disponibles para ejecutar:");
     console.log("");
     console.log("generarSassDoc - Generara el SassDoc en una nueva carpeta llamada Documentacion");
+    console.log("compilar_sass - Compilara los archivos scss en la ruta definida");
 
 
 
